@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './UI/Button';
+import ButtonWrapper from './UI/ButtonWrapper';
 import './App.css';
 function App() {
   return (
@@ -7,54 +8,54 @@ function App() {
       <header>Reusable Buttons</header>
       <div className="buttons">
         <div className="first_column">
-          <div>
+          <ButtonWrapper>
             <Button>Reusable Button </Button> : Default
-          </div>
-          <div>
+          </ButtonWrapper>
+          <ButtonWrapper>
             <Button variant="outline"> Reusable Button </Button> :
             variant="outline"
-          </div>
-          <div>
+          </ButtonWrapper>
+          <ButtonWrapper>
             <Button variant="text">Reusable Button </Button> : variant="text"
-          </div>
-          <div>
+          </ButtonWrapper>
+          <ButtonWrapper>
             <Button disableShadow>Reusable Button</Button> : disableShadow
-          </div>
-          <div>
+          </ButtonWrapper>
+          <ButtonWrapper>
             <Button disabled>Reusable Button</Button> : disabled
-          </div>
+          </ButtonWrapper>
         </div>
         <div className="second_column">
-          <div>
+          <ButtonWrapper>
             <Button color="primary" size="md" startIcon="local_grocery_store">
               Reusable Button
             </Button>
             : startIcon="local_grocery_store"
-          </div>
-          <div>
+          </ButtonWrapper>
+          <ButtonWrapper>
             <Button color="primary" size="md" endIcon="local_grocery_store">
               Reusable Button
             </Button>
             : endIcon="local_grocery_store"
-          </div>
-          <div>
+          </ButtonWrapper>
+          <ButtonWrapper>
             <Button color="secondary" size="lg">
               Reusable Button
             </Button>
             : color="secondary" size="lg"
-          </div>
-          <div>
-            <Button color="default" size="md">
+          </ButtonWrapper>
+          <ButtonWrapper>
+            <Button color="default" size="md" endIcon="local_grocery_store">
               Reusable Button
             </Button>
             : color="default"; size="md"
-          </div>
-          <div>
+          </ButtonWrapper>
+          <ButtonWrapper>
             <Button color="primary" size="sm">
               Reusable Button
             </Button>
             : color="primary" size="sm"
-          </div>
+          </ButtonWrapper>
         </div>
       </div>
     </div>
