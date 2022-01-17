@@ -9,20 +9,20 @@ function App() {
       <div className="buttons">
         <div className="first_column">
           <ButtonWrapper>
-            <Button>Reusable Button </Button> : Default
+            <Button>Reusable Button</Button> : Default
           </ButtonWrapper>
           <ButtonWrapper>
-            <Button variant="outline"> Reusable Button </Button> :
+            <Button variant="outline">Reusable Button</Button> :
             variant="outline"
           </ButtonWrapper>
           <ButtonWrapper>
-            <Button variant="text">Reusable Button </Button> : variant="text"
+            <Button variant="text">Reusable Button</Button> : variant="text"
           </ButtonWrapper>
           <ButtonWrapper>
             <Button disableShadow>Reusable Button</Button> : disableShadow
           </ButtonWrapper>
           <ButtonWrapper>
-            <Button disabled>Reusable Button</Button> : disabled
+            <Button disabled>Disabled Button</Button> : disabled
           </ButtonWrapper>
         </div>
         <div className="second_column">
@@ -30,22 +30,22 @@ function App() {
             <Button color="primary" size="md" startIcon="local_grocery_store">
               Reusable Button
             </Button>
-            : startIcon="local_grocery_store"
+            : startIcon="local_grocery_store", Primary
           </ButtonWrapper>
           <ButtonWrapper>
             <Button color="primary" size="md" endIcon="local_grocery_store">
               Reusable Button
             </Button>
-            : endIcon="local_grocery_store"
+            : endIcon="local_grocery_store", Primary
           </ButtonWrapper>
           <ButtonWrapper>
             <Button color="secondary" size="lg">
               Reusable Button
             </Button>
-            : color="secondary" size="lg"
+            : color="secondary" size="lg",
           </ButtonWrapper>
           <ButtonWrapper>
-            <Button color="default" size="md" endIcon="local_grocery_store">
+            <Button color="default" size="md">
               Reusable Button
             </Button>
             : color="default"; size="md"
