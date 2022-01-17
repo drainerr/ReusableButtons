@@ -8,15 +8,15 @@
 header {
   height: 70px;
   width: 100vw;
-  background: #0f0c29;
-  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: #2b5876;
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+  background: linear-gradient(to right, #4e4376, #2b5876);
   color: white;
   font-family: monospace;
   font-size: 24px;
   display: flex;
   text-shadow: 1px 1px black;
-  box-shadow: 0 2px 5px black;
+  box-shadow: 0 1px 5px black;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
