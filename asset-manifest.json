@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ReusableButtons/static/css/main.449dbf69.css",
+    "main.js": "/ReusableButtons/static/js/main.f64966d3.js",
+    "static/media/NotoSansJP-Medium.otf": "/ReusableButtons/static/media/NotoSansJP-Medium.1b7dde000cf6f3eaecd7.otf",
+    "index.html": "/ReusableButtons/index.html",
+    "main.449dbf69.css.map": "/ReusableButtons/static/css/main.449dbf69.css.map",
+    "main.f64966d3.js.map": "/ReusableButtons/static/js/main.f64966d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.449dbf69.css",
+    "static/js/main.f64966d3.js"
+  ]
+}
